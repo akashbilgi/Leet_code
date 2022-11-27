@@ -14,6 +14,6 @@ class Solution:
             count += 1
             print(curr.val)
             curr = curr.next
-        for i in range(count):
+        for i in range(count//2):
             if l1[i] != l1[count-i-1]:return False
         return True
